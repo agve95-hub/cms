@@ -7,7 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   experimental: {
-    serverComponentsExternalPackages: ['better-sqlite3', 'sharp', 'simple-git', 'pino', 'pino-pretty'],
+    serverComponentsExternalPackages: ['sharp', 'simple-git', 'pino', 'pino-pretty', 'mysql2'],
   },
   images: {
     remotePatterns: [
